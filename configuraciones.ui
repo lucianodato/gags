@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>configuraciones</class>
+ <widget class="QDialog" name="configuraciones">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Configuraciones</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="Ciclocontable">
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Base de Datos</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_12">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="3" column="1">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QTableView" name="tableView_3">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Patrulla</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>Cargo</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QTableView" name="tableView_7">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="3" colspan="2">
+        <layout class="QGridLayout" name="gridLayout_7">
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Rama</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QTableView" name="tableView_31">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0" rowspan="6" colspan="2">
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>Categoria de Pago</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QTableView" name="tableView_8">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="2" rowspan="6" colspan="3">
+        <layout class="QGridLayout" name="gridLayout_11">
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>Categoría de Materiales</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QTableView" name="tableView_9">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="8" column="0" colspan="5">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>Palabra a Ingresar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_21">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Guardar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_22">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Cancelar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="7" column="0" colspan="5">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Costos</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Costos</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QTableView" name="tableView">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <layout class="QGridLayout" name="gridLayout_25">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Total</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="label_5">
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <italic>false</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>$0</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>Agregar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_15">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Guardar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_16">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>Cancelar</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>Quitar</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="text">
+                <string>Descripción</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" rowspan="3">
+              <widget class="QLabel" name="label_2">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="text">
+                <string>Monto</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" rowspan="2">
+              <widget class="QLineEdit" name="lineEdit">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1" rowspan="2">
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="maximum">
+                <double>10000.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Eventos</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0" colspan="5">
+        <widget class="QTableView" name="tableView_2">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Nuevo Evento</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>Porcentaje</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3" colspan="2">
+        <widget class="QSlider" name="horizontalSlider">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="singleStep">
+          <number>2</number>
+         </property>
+         <property name="pageStep">
+          <number>10</number>
+         </property>
+         <property name="sliderPosition">
+          <number>0</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="tickPosition">
+          <enum>QSlider::TicksBothSides</enum>
+         </property>
+         <property name="tickInterval">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Descripción</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Ganancia Miembro</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="minimumSize">
+            <size>
+             <width>12</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>10</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;$&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="textInteractionFlags">
+            <set>Qt::NoTextInteraction</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Monto Unitario</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximum">
+          <double>10000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_20">
+         <property name="text">
+          <string>Ganancia Grupo</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_27">
+           <property name="minimumSize">
+            <size>
+             <width>12</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;$&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_21">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="textInteractionFlags">
+            <set>Qt::NoTextInteraction</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>Fecha Evento</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QDateEdit" name="dateEdit_3">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="displayFormat">
+          <string>dd/MM/yy</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QPushButton" name="pushButton_17">
+           <property name="text">
+            <string>Agregar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Quitar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Guardar</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_18">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Cancelar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="5" column="3" colspan="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="3">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>30</width>
+           <height>9</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="3">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>30</width>
+           <height>9</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Ciclo Contable</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_24">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_21">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_15">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_14">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>Configuración de Año Scout</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="Line" name="line_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>10</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QGridLayout" name="gridLayout_20">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_18">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>Fecha Inicio - Año Scout</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QDateEdit" name="dateEdit">
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+               <property name="currentSectionIndex">
+                <number>0</number>
+               </property>
+               <property name="timeSpec">
+                <enum>Qt::LocalTime</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QPushButton" name="pushButton_19">
+               <property name="text">
+                <string>Iniciar</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <layout class="QGridLayout" name="gridLayout_19">
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_17">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_17">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string>Fecha Fin - Año Scout</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDateEdit" name="dateEdit_2">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="calendarPopup">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QPushButton" name="pushButton_20">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string>Finalizar</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="1" column="0">
+              <layout class="QGridLayout" name="gridLayout_16">
+               <item row="0" column="0">
+                <widget class="Line" name="line_3">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QGridLayout" name="gridLayout_23">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>Informes</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <layout class="QGridLayout" name="gridLayout_22">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_26">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="text">
+              <string>Ciclo Contable - Anterior</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="pushButton_23">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="text">
+              <string>Imprimir</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QPushButton" name="pushButton_24">
+             <property name="text">
+              <string>Exportar a CVS</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="1" column="0">
+          <widget class="Line" name="line_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>pushButton_19</tabstop>
+  <tabstop>dateEdit_2</tabstop>
+  <tabstop>pushButton_20</tabstop>
+  <tabstop>pushButton_23</tabstop>
+  <tabstop>pushButton_24</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_7</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_9</tabstop>
+  <tabstop>pushButton_10</tabstop>
+  <tabstop>pushButton_11</tabstop>
+  <tabstop>pushButton_12</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>pushButton_21</tabstop>
+  <tabstop>pushButton_22</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>doubleSpinBox_2</tabstop>
+  <tabstop>pushButton_15</tabstop>
+  <tabstop>pushButton_16</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_17</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>doubleSpinBox</tabstop>
+  <tabstop>dateEdit_3</tabstop>
+  <tabstop>horizontalSlider</tabstop>
+  <tabstop>pushButton_14</tabstop>
+  <tabstop>pushButton_13</tabstop>
+  <tabstop>pushButton_18</tabstop>
+  <tabstop>Ciclocontable</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>pressed()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>121</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>188</x>
+     <y>469</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>pressed()</signal>
+   <receiver>lineEdit_3</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>476</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>154</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

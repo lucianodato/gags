@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rautomaticpadres</class>
+ <widget class="QDialog" name="rautomaticpadres">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Figuran en la Base de Datos</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTableView" name="tableView">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Cerrar</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tableView</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>tableView</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>rautomaticpadres</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Manuales">
+        <file alias="Manual_Usuario">Manuales/manual de usuario.pdf</file>
+    </qresource>
+</RCC>

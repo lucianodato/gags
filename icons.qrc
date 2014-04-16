@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/FIREWALL.png</file>
+        <file>icons/SEARCH_16x16-32.png</file>
+        <file>icons/SEARCH_32x32-32.png</file>
+        <file>icons/SETTINGS_16x16-32.png</file>
+        <file>icons/SETTINGS_32x32-32.png</file>
+        <file>icons/SYNCAPP.png</file>
+        <file>icons/TOOLS.png</file>
+        <file>icons/USER - M.png</file>
+        <file alias="female">icons/default-user-image-female.jpg</file>
+        <file alias="male">icons/male-default.jpg</file>
+        <file alias="splash">icons/splash.png</file>
+        <file alias="gags">icons/GAGs.png</file>
+    </qresource>
+</RCC>
